@@ -7,18 +7,18 @@
 }
   /* Colors and styling default */
 :root{
-  --PrimaryColor: Ohsl (199, 100%, 33%);
-  --SecondaryColor: hs1(187, 85%, 43%);
-  --gradientColor: linear-gradient(to right, Ihsl (187,
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187,
   85%, 43%), hsl(199, 100%, 33%));
   --whiteColor: hsl(0, 0%, 100%);
-  --blackColor: Ohsl (201, 33%, 16%);
-  --textColor: Ohsl (240, 4%, 36%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240,4%, 36%);
   --whiteColorDeam: hsl(0, 0%, 93%);
-  --greyText: Irgb(190, 190, 190);
-  --inputColor: Irgb(239, 239, 239);
-  --bodyColor: Irgb(240, 240, 246);
-  --cardBG: Irgb(225, 225, 235);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
   }
   a{
     text-decoration: none;
