@@ -1,19 +1,30 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Navbar.css'
 import {MdOutlineTravelExplore} from 'react-icons/md'
 import {AiFillCloseCircle} from 'react-icons/ai'
 import{TbGridDots} from 'react-icons/tb'
+
+
 export const Navbar = () => {
+    const [active ,setActive] = useState('navBar')
+    // how to toggle navbar
+    const showNav=()=>{
+        setActive('navbar activeNavbar')
+    }
+    //how to close navbar
+    const removeNavbar=()=>{
+        setActive('navBar')
+    }
   return (
     <section className='navBarSection'>
 <header className="header flex">
 <div className="logoDiv">
-<a href="#" className="logo">
-<h1><MdOutlineTravelExplore className="icon"/>Travel.</h1>
+<a href="#" className="logo flex">
+<h1><MdOutlineTravelExplore className="icon"/>Hey</h1>
 </a>
 </div>
 
-<div className="navBar">
+<div className={active}>
 <ul className="navLists flex">
 <li className="navItem">
 <a href="#" className="navLink">Home</a>
@@ -37,15 +48,16 @@ export const Navbar = () => {
  <a href="#" className="navLink">Contact</a>
  </li>
  <button className="btn">
-    <a href="#">Book</a>
+    <a href="#">BOOK NOW</a>
  </button>
  </ul>
- <div className="closeNavbar">
+ 
+ <div onClick={removeNavbar} className="closeNavbar">
     <AiFillCloseCircle className="icon"/>
  </div>
  </div>
- 
- <div className="toggleNavbar">
+
+ <div onClick={showNav} className="toggleNavbar">
     <TbGridDots className="icon"/>
  </div>
 </header>
