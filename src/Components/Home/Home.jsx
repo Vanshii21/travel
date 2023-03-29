@@ -1,9 +1,28 @@
 import React from 'react'
 import './Home.css'
-
+import video from '../../assets/Vedio.mp4'
 export const Home = () => {
   return (
-    <div>Home</div>
+   <section className='home'>
+    <div className='overlay'></div>
+    <video src={video} muted autoPlay loop type="video/mp4"></video>
+    <div className="homeContent container">
+      <div className="textDiv">
+        <span className="smallText">Travel Blogs</span>
+        <h1 className="homeTitle"> Search your Favourite</h1>
+
+      </div>
+
+      <div className='cardDiv grid'>
+        <div className='destinationInput'>
+          <label htmlFor='City'>Search Destination</label>
+<div className='input flex'>
+  <input type="text" placeholder='Enter Name Here'></input>
+</div>
+        </div>
+      </div>
+    </div>
+   </section>
   )
 }
 export default Home;

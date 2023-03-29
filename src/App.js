@@ -9,6 +9,7 @@ export const App = () => {
    <>
    
 <Navbar/>
+<Home/>
    </>
   )
 }

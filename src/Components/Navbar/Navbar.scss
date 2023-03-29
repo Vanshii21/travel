@@ -36,12 +36,12 @@
               transform: translateY(5px);
             }
         }
-        @media screen and (min-width: 768px){
+        @media screen and (max-width: 1700px){
           .navBar{
             position: absolute;
             background: var(--whiteColorDeam);
                  height: max-content;
-                 width: 80%;
+                 width: 40%;
                  border-radius: 1rem;
                  top: -500rem;
                  left: 50%;
@@ -53,6 +53,7 @@
                  .navLists{
                    flex-direction: grid;
                    justify-content: center;
+                   text-align: center;
                    width: 100%;
                    margin: auto;
                    padding: .5rem 0;
@@ -69,6 +70,7 @@
                    }
                 }
             }
+        }
             .btn{
                 margin-top: 1rem;
                 a{
@@ -76,7 +78,7 @@
                     color: var(--whiteColor);
                 }
             }
-                 }
+                
                  .closeNavbar{
                     position: absolute;
                     top: 1rem;
@@ -87,9 +89,11 @@
                     }
                  }
           
+                
           .activeNavbar{
             top: 7rem;
           }
+          
 
 .toggleNavbar{
     .icon{

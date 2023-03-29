@@ -9,23 +9,24 @@ export const Navbar = () => {
     const [active ,setActive] = useState('navBar')
     // how to toggle navbar
     const showNav=()=>{
-        setActive('navbar activeNavbar')
+        setActive('navBar activeNavbar')
     }
     //how to close navbar
     const removeNavbar=()=>{
+        console.log("I am cro")
         setActive('navBar')
     }
   return (
     <section className='navBarSection'>
 <header className="header flex">
 <div className="logoDiv">
-<a href="#" className="logo flex">
+<a href="#" className="logo">
 <h1><MdOutlineTravelExplore className="icon"/>Hey</h1>
 </a>
 </div>
 
 <div className={active}>
-<ul className="navLists flex">
+<ul className="navLists">
 <li className="navItem">
 <a href="#" className="navLink">Home</a>
 </li>
@@ -51,7 +52,7 @@ export const Navbar = () => {
     <a href="#">BOOK NOW</a>
  </button>
  </ul>
- 
+
  <div onClick={removeNavbar} className="closeNavbar">
     <AiFillCloseCircle className="icon"/>
  </div>
