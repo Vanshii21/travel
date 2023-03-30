@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import video from '../../assets/Vedio.mp4'
+import {GrLocation} from 'react-icons/gr'
 export const Home = () => {
   return (
    <section className='home'>
@@ -17,7 +18,8 @@ export const Home = () => {
         <div className='destinationInput'>
           <label htmlFor='City'>Search Destination</label>
 <div className='input flex'>
-  <input type="text" placeholder='Enter Name Here'></input>
+  <input type="text" placeholder='Enter Name Here'/>
+  <GrLocation className="icon"/>
 </div>
         </div>
       </div>
