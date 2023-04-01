@@ -64,4 +64,18 @@
 .home .homeContent .textDiv .homeTitle {
   position: relative;
   font-size: 1.8rem;
+}
+.home .homeContent .cardDiv {
+  position: relative;
+  padding: 2rem 1rem;
+  background: var(--whiteColor);
+  border-radius: 10px;
+  gap: 1rem;
+}
+.home .homeContent .cardDiv label {
+  display: block;
+  color: var(--textColor);
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: 500;
 }/*# sourceMappingURL=Home.css.map */
