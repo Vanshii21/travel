@@ -2,11 +2,12 @@ import React from 'react'
 import './Home.css'
 import video from '../../assets/Vedio.mp4'
 import {GrLocation} from 'react-icons/gr'
+import{HiFilter} from 'react-icons/hi'
 export const Home = () => {
   return (
    <section className='home'>
     <div className='overlay'></div>
-    <video src={video} muted autoPlay loop type="video/mp4"></video>
+    <video src={video} muted loop autoPlay type="video/mp4"></video>
     <div className="homeContent container">
       <div className="textDiv">
         <span className="smallText">Travel Blogs</span>
@@ -36,6 +37,11 @@ export const Home = () => {
 <div className='input flex'>
   <input type="range" max="5000"  min="1000" />
     </div>
+    </div>
+
+    <div className='searchOptions flex'>
+      <HiFilter className='icon'/>
+      <span>More Filter</span>
     </div>
     </div>
     </div>
