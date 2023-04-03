@@ -6,6 +6,8 @@ import{HiFilter} from 'react-icons/hi'
 import{FiFacebook} from 'react-icons/fi'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import{FaTripadvisor} from 'react-icons/fa'
+import{BsListTask} from 'react-icons/bs'
+import{TbApps} from 'react-icons/tb'
 export const Home = () => {
   return (
    <section className='home'>
@@ -52,6 +54,11 @@ export const Home = () => {
         <FiFacebook className="icon"/>
         <AiOutlineInstagram className="icon"/>
         <FaTripadvisor className="icon"/>
+       </div>
+       <div className='leftIcons'>
+        <BsListTask className='icon'/>
+        <TbApps className='icon'/>
+        <TbApps className='icon'/>
        </div>
 
     </div>

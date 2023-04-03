@@ -20,7 +20,7 @@ export const Navbar = () => {
     <section className='navBarSection'>
 <header className="header flex">
 <div className="logoDiv">
-<a href="#" className="logo">
+<a href='#' className="logo">
 <h1><MdOutlineTravelExplore className="icon"/>Hey</h1>
 </a>
 </div>
@@ -28,28 +28,28 @@ export const Navbar = () => {
 <div className={active}>
 <ul className="navLists">
 <li className="navItem">
-<a href="#" className="navLink">Home</a>
+<a href='#' className="navLink">Home</a>
 </li>
 <li className= "navItem">
- <a href="#" className="navLink">Package</a> 
+ <a href='#' className="navLink">Package</a> 
 </li>
 <li className="navItem">
- <a href="#" className="navLink">Shop</a>
+ <a href='#' className="navLink">Shop</a>
 </li>
 <li className="navItem">
-<a href="#" className="navLink">About</a>
+<a href='#' className="navLink">About</a>
 </li>
 <li className="navItem">
- <a href="#" className="navLink">Pages</a>
+ <a href='#' className="navLink">Pages</a>
  </li>
  <li className="navItem">
- <a href="#" className="navLink">News</a>
+ <a href='#' className="navLink">News</a>
  </li>
  <li className="navItem">
- <a href="#" className="navLink">Contact</a>
+ <a href='#' className="navLink">Contact</a>
  </li>
  <button className="btn">
-    <a href="#">BOOK NOW</a>
+    <a href='#'>BOOK NOW</a>
  </button>
  </ul>
 
