@@ -3,6 +3,9 @@ import './Home.css'
 import video from '../../assets/Video.mp4'
 import {GrLocation} from 'react-icons/gr'
 import{HiFilter} from 'react-icons/hi'
+import{FiFacebook} from 'react-icons/fi'
+import {AiOutlineInstagram} from 'react-icons/ai'
+import{FaTripadvisor} from 'react-icons/fa'
 export const Home = () => {
   return (
    <section className='home'>
@@ -43,6 +46,14 @@ export const Home = () => {
       <HiFilter className='icon'/>
       <span>More Filter</span>
     </div>
+    </div>
+    <div className='homeFooterIcons flex'>
+      <div className='rightIcons'>
+        <FiFacebook className="icon"/>
+        <AiOutlineInstagram className="icon"/>
+        <FaTripadvisor className="icon"/>
+       </div>
+
     </div>
     </div>
    </section>
