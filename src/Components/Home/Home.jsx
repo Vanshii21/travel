@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import video from '../../assets/Vedio.mp4'
+import video from '../../assets/Video.mp4'
 import {GrLocation} from 'react-icons/gr'
 import{HiFilter} from 'react-icons/hi'
 export const Home = () => {
