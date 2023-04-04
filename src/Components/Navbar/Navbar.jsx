@@ -13,14 +13,14 @@ export const Navbar = () => {
     }
     //how to close navbar
     const removeNavbar=()=>{
-        console.log("I am cro")
+        
         setActive('navBar')
     }
   return (
     <section className='navBarSection'>
 <header className="header flex">
 <div className="logoDiv">
-<a href='#' className="logo">
+<a href="#" className="logo">
 <h1><MdOutlineTravelExplore className="icon"/>Hey</h1>
 </a>
 </div>
@@ -28,7 +28,7 @@ export const Navbar = () => {
 <div className={active}>
 <ul className="navLists">
 <li className="navItem">
-<a href='#' className="navLink">Home</a>
+<a href='https://github.com/Vanshii21' className="navLink">Home</a>
 </li>
 <li className= "navItem">
  <a href='#' className="navLink">Package</a> 

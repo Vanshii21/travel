@@ -58,7 +58,7 @@ export const Home = () => {
        <div className='leftIcons'>
         <BsListTask className='icon'/>
         <TbApps className='icon'/>
-        <TbApps className='icon'/>
+       
        </div>
 
     </div>
