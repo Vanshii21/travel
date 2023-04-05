@@ -1,5 +1,27 @@
 import React from 'react'
 import './Main.css'
+import img from '../../assets/img1.jpg'
+
+const Data=[
+  {
+    id:1,
+    imgSrc:img,
+    destTitle:'rrrr',
+    location:'NewYork',
+    grade:'Cultural relax',
+    fees:'$500',
+    description:'visiting'
+  },
+  // {
+  //   id:2,
+  //   imgSrc:img,
+  //   destTitle:'rrrr',
+  //   location:'NewYork',
+  //   grade:'Cultural relax',
+  //   fees:'$500',
+  //   description:'visiting'
+  // },
+]
 
 export const Main = () => {
   return (
@@ -7,7 +29,20 @@ export const Main = () => {
       <div className='secTitle'>
        <h3 className='title'>Most Visited Destinations</h3>
       </div>
-<div className='seeContent grid'></div>
+<div className='seeContent grid'>
+  {
+    Data.map(({id,imgSrc,destTitle,location,grade,fees,description})=>{
+      return(
+        <div key={id} className='singleDestination'>
+          <div className='imageDiv'>
+            <img src={img} alt=''/>
+          </div>
+        </div>
+      
+      )
+    })
+  }
+</div>
 
 
     </section>
