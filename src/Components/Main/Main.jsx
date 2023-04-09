@@ -35,7 +35,7 @@ export const Main = () => {
       return(
         <div key={id} className='singleDestination'>
           <div className='imageDiv'>
-            <img src={img} alt=''/>
+            <img src={imgSrc} alt={destTitle}/>
           </div>
         </div>
       
