@@ -6,7 +6,7 @@ const Data=[
   {
     id:1,
     imgSrc:img,
-    destTitle:'rrrr',
+    destTitle:'Bora',
     location:'NewYork',
     grade:'Cultural relax',
     fees:'$500',
@@ -37,6 +37,9 @@ export const Main = () => {
           <div className='imageDiv'>
             <img src={imgSrc} alt={destTitle}/>
           </div>
+          <div className='cardInfo'>
+            <h4 className="destTitle"></h4>
+        </div>
         </div>
       
       )
